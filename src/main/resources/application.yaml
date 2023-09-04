@@ -1,0 +1,15 @@
+spring: 
+  datasource: 
+     username: skate_shop
+     password: skate_shop
+     url: jdbc:mysql://localhost:3306/skate_shop
+     
+  jpa:
+    hibernate: 
+      ddl-auto: update
+    show-sql: true
+    defer-datasource-initialization: true
+    
+  sql:
+    init: 
+      mode: always
